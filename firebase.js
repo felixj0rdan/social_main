@@ -1,13 +1,13 @@
 import firebase from "firebase";
 const firebaseConfig = {
-    apiKey: "AIzaSyBXYVU9NxxlMzbPevQDeQgXRxlARGmvlds",
-    authDomain: "social-app-7024c.firebaseapp.com",
-    projectId: "social-app-7024c",
-    storageBucket: "social-app-7024c.appspot.com",
-    messagingSenderId: "247062181270",
-    appId: "1:247062181270:web:b0f6c31eafd3b1487259b7",
-    measurementId: "G-W2TFGXJZ6L"
-  };
+  apiKey: "AIzaSyCCtn8FkfiQ4eOj-oZmKOZgMsRirWhId24",
+  authDomain: "mysquare-4bc99.firebaseapp.com",
+  projectId: "mysquare-4bc99",
+  storageBucket: "mysquare-4bc99.appspot.com",
+  messagingSenderId: "218868099414",
+  appId: "1:218868099414:web:b64fc34585484ebf00cef7",
+  measurementId: "G-FF1GHEDSD9"
+};
   const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
   const db = app.firestore();
   const auth = app.auth();

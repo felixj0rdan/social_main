@@ -48,6 +48,7 @@ function Navbar() {
                 <div><a href="/messenger"><MessageOutlined className="cursor-pointer transition duration-100 transform hover:scale-150 hover:text-black-900 active:text-red-500"  /></a></div>
                 <div><a href="/shopping"><ShoppingBasket className="cursor-pointer transition duration-100 transform hover:scale-150 hover:text-black-900 active:text-red-500" /></a></div>
                 <div><a href="/information"><InfoRounded className="cursor-pointer transition duration-100 transform hover:scale-150 hover:text-black-900 active:text-red-500" /></a></div>
+                <div><a href="/information"><InfoRounded className="cursor-pointer transition duration-100 transform hover:scale-150 hover:text-black-900 active:text-red-500" /></a></div>
             </div>
             <img onClick={showMenu} className="object-contain rounded-full cursor-pointer relative m-2" src={user?.photoURL}></img>
             
