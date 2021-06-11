@@ -1,0 +1,46 @@
+https://www.youtube.com/watch?v=a_9OHcAyeqo
+
+import {auth,db} from "../firebase";
+
+import {RSA,Crypt} from "node-crypto-js";
+// import { sha256, sha224 } from 'js-sha256';
+import sha256 from 'crypto-js/sha256';
+import hmacSHA512 from 'crypto-js/hmac-sha512';
+import Base64 from 'crypto-js/enc-base64';
+    
+        //using CryptoJS
+        // var encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase");
+        // //U2FsdGVkX18ZUVvShFSES21qHsQEqZXMxQ9zgHy+bu0=
+        
+        // var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
+        // console.log("ENC",encrypted);
+        // console.log("DEC",decrypted);
+        //using js-sha256
+        // console.log(sha256(input));
+        // const message = "test";
+        // const privateKey = 'abcdefgh1234';
+        // const hashDigest = sha256(message);
+        // const hmacDigest = Base64.stringify(hmacSHA512(hashDigest,privateKey));
+        // console.log(hmacDigest);
+        // using node-crypto-js:
+        // var crypt = new Crypt();
+        // var rsa = new RSA();
+        // var message = 'Hello world!';
+        // let publicKey;
+        // let privateKey;
+        // rsa.generateKeypair(function(keypair) {
+        //     // Callback function receives new 1024 bit keypair as an argument
+        //     publicKey = keypair.publicKey;
+        //     privateKey = keypair.privateKey;
+        //   }, 1024);
+ 
+        // // Encryption with one public RSA key
+        // var encrypted = crypt.encrypt(publicKey, message);
+        // console.log(encrypted);
+
+        
+        // // Function also supports encryption with multiple RSA public keys
+        // var encrypted = crypt.encrypt([publicKey1, publicKey2, publicKey3], message);
+        
+        // // Encryption with signature
+        // var encrypted = crypt.encrypt(publicKey, message, signature);
