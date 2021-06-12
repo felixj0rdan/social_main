@@ -42,7 +42,7 @@ function Navbar() {
         <div className="flex md:flex  bg-blue-200 h-16 md:h-16  justify-around">
             
             <div className="my-auto text-xl">MySquare</div>
-            <input type="text" className="h-8 my-auto rounded-lg" value=" Search...."/>
+            <input type="text" className="h-8 my-auto rounded-lg" placeholder="Search...."/>
             <div className={"my-auto w-96 hidden md:flex flex-col md:flex-row md:justify-around"} >
                 <div><a href="/"><HomeOutlined className="cursor-pointer transition duration-100 transform hover:scale-150 hover:animate-bounce hover:text-black-900 active:text-red-500" /></a></div>
                 <div><a href="/messenger"><MessageOutlined className="cursor-pointer transition duration-100 transform hover:scale-150 hover:text-black-900 active:text-red-500"  /></a></div>
